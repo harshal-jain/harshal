@@ -13,12 +13,14 @@
       <!-- =====BOX ICONS===== -->
       <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
       <title>Harshal Jain | Portfolio</title>
-       
+       <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
        <style>
         li.a {
           list-style-type: circle;
             
         }
+
+
        </style>
        
        
@@ -31,19 +33,17 @@
                <a href="#" class="nav__logo">Harshal</a>
             </div>
             <div class="nav__menu" id="nav-menu">
-               <ul class="nav__list">
-                  <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                  <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                  <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                   <li class="nav__item"><a href="#Education" class="nav__link">Education</a></li>
-                   <li class="nav__item"><a href="#Experience" class="nav__link">Experience</a></li>
-                  <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
-                  <li class="nav__item"><a href="#certification" class="nav__link">Certifications</a></li>
-                <li class="nav__item"><a href="#blog" class="nav__link">Blog</a></li>
-                 
-
-               </ul>
-            </div>
+    <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link active" style="text-decoration: none !important;">Home</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link" style="text-decoration: none !important;">About</a></li>
+        <li class="nav__item"><a href="#skills" class="nav__link" style="text-decoration: none !important;">Skills</a></li>
+        <li class="nav__item"><a href="#Education" class="nav__link" style="text-decoration: none !important;">Education</a></li>
+        <li class="nav__item"><a href="#Experience" class="nav__link" style="text-decoration: none !important;">Experience</a></li>
+        <li class="nav__item"><a href="#work" class="nav__link" style="text-decoration: none !important;">Projects</a></li>
+        <li class="nav__item"><a href="#certification" class="nav__link" style="text-decoration: none !important;">Certifications</a></li>
+        <li class="nav__item"><a href="#blog" class="nav__link" style="text-decoration: none !important;">Blog</a></li>
+    </ul>
+</div>
             <div class="nav__toggle" id="nav-toggle">
                <i class='bx bx-menu'></i>
             </div>
@@ -71,8 +71,8 @@
          <section class="about section " id="about">
             <h2 class="section-title">About</h2>
             <div class="about__container bd-grid">
-               <div class="about__img">
-                  <img src="assets/img/harshal_about.jpg" alt="">
+               <div class="about__img"">
+                  <img src="assets/img/HARSHAL_ABOUT_IMAGE.jpg" alt="">
                </div>
                <div>
                   <h2 class="about__subtitle">I am Harshal</h2>
@@ -134,6 +134,18 @@
                         <div class="skills__names">
                            <i class='bx bxs-paint skills__icon'></i>
                            <span class="skills__name">C++</span>
+                        </div>
+                     </div>
+<div class="skills__data">
+                        <div class="skills__names">
+                           <i class='bx bxl-react skills__icon'></i>
+                           <span class="skills__name">React</span>
+                        </div>
+                     </div>
+<div class="skills__data">
+                        <div class="skills__names">
+                           <i class='bx bxs-brain skills__icon'></i>
+                           <span class="skills__name">AI</span>
                         </div>
                      </div>
                   </div>
@@ -210,62 +222,54 @@
           
             
           <section class="skills section" id="Experience">
-          
-                      <h2 class="section-title">Experience</h2>
-
-            
-            <div class="skills1__container bd-grid">
-                     
-                     <div class="skills__data">
-                        <div class="skills__names">
-                           <div class=" mt-1 mb-1">
-                              <p class="mt-2" style="font-weight: bold;"> My Experience
-                                  <div class="border-left border-primary pt-2 pl-4 ml-2">
-                        <div class="position-relative ex-me mb-4">
-                            
-                            <h5 class="font-weight-bold mb-1">Programmer Analyst</h5>
-                            <p class="mb-2"><strong>Cognizant Software Pvt. Ltd.</strong> | <small> Oct 2020 - Present</small></p>
-                            <p>
-                                Handled a Healthcare Project as a Server Administrator as an integral part of Application Development & Maintenance Team which included the responsibilities of analysis, decommissioning & migration of servers with zero escalations. Worked as POC to coordinate with Firewall, Networking, Application & ESB team for day-to-day activities pertaining to Server Migration. Got training in C#, MSSQL, Entity Framework, ASP.NET MVC5.
-                            </p>
-                                
-<!--
-                                    <li class="a" style="text-align:match-parent;">Handled a Healthcare Project as a Server Administrator as an integral part of Application Development & Maintenance Team which included the responsibilities of analysis, decommissioning & migration of servers with zero escalations</li>
-                                    <li class="a">Worked as POC to coordinate with Firewall, Networking, Application & ESB team for day-to-day activities pertaining to Server Migration</li>
-                                    <li class="a">Got training in C#, MSSQL, Entity Framework, ASP.NET, MVC5</li>
--->
-                                    
-                            
-                            
+    <h2 class="section-title">Experience</h2>
+    <div class="skills1__container bd-grid">
+        <div class="skills__data">
+            <div class="skills__names">
+                <div class="mt-1 mb-1">
+                    <p class="mt-2" style="font-weight: bold;"> My Experience
+                        <div class="border-left border-primary pt-2 pl-4 ml-2">
+                            <div class="position-relative ex-me mb-4">
+                                <h5 class="font-weight-bold mb-1">Senior Software Engineer</h5>
+                                <p class="mb-2"><strong>In Time Tec</strong> | <small> Apr 2024 - Present</small></p>
+                                <p>Contributed to the development of a comprehensive child care application that provides training and management services. Utilized Angular for the frontend, Dot Net Core for the backend, React Native for mobile development and PowerBI for data visualization and reporting.</p>
+                            </div>
+                            <div class="position-relative ex-me mb-4">
+                                <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px;left: -35px; font-size: 22px;"></i>
+                                <h5 class="font-weight-bold mb-1">Software Engineer</h5>
+                                <p class="mb-2"><strong>In Time Tec</strong> | <small> Feb 2022 - Apr 2024</small></p>
+                                <p>In Project 1, I contributed to the development of a platform that facilitates seamless connectivity between shippers, carriers, and brokers. This involved utilizing Angular for the micro frontend, Cypress for component testing, Jest for unit tests, and Selenium for enhanced testing. In Project 2, I played a key role in creating an application for service provisioning that serves both external clients and internal stakeholders. This project leveraged a range of technologies, including Angular for the frontend, Dotnet for the backend, AWS for cloud services, NIFI for data management, and Selenium for automation.</p>
+                            </div>
+                            <div class="position-relative ex-me mb-4">
+                                <h5 class="font-weight-bold mb-1">Programmer Analyst</h5>
+                                <p class="mb-2"><strong>Cognizant Software Pvt. Ltd.</strong> | <small> Oct 2021 - Feb 2022</small></p>
+                                <p>I worked as a software development engineer on a government project that involved modifying the existing application. My role also encompassed designing Technical Requirement Documents, Unit Test Cases, Unit Test Results, and Traceability Matrix Ready documents. Additionally, I coordinated daily with the Quality Assurance team, Information Security team, and Business Analysts. The technologies I used in this project included VB Script, Oracle DB, and XML.</p>
+                            </div>
+                            <div class="position-relative ex-me mb-4">
+                                <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px;left: -35px; font-size: 22px;"></i>
+                                <h5 class="font-weight-bold mb-1">Programmer Analyst Trainee</h5>
+                                <p class="mb-2"><strong>Cognizant Software Pvt. Ltd.</strong> | <small> Oct 2020 - Sep 2021</small></p>
+                                <p>I handled a healthcare project as a server administrator, playing an integral role in the Application Development & Maintenance Team. My responsibilities included the analysis, decommissioning, and migration of servers with zero escalations. I also worked as the point of contact to coordinate with the Firewall, Networking, and Application teams for day-to-day activities related to server migration. Additionally, I completed the role development plan within the specified timelines. I received training and certification in DSA, HTML5, CSS, C#, MSSQL, Entity Framework, ASP.NET MVC5, and Angular 12.</p>
+                            </div>
+                            <div class="position-relative ex-me mb-4">
+                                <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px;left: -35px; font-size: 22px;"></i>
+                                <h5 class="font-weight-bold mb-1">Software Engineer Intern</h5>
+                                <p class="mb-2"><strong>Metacube Software Pvt. Ltd.</strong> | <small> May 2019 - Jun 2019</small></p>
+                                <p>Developed an end-to-end web application named Offer’s Corner by using JS, HTML & CSS which displays offers catalogue to front end users, backend made by PHP consists of an Admin Portal which manages the User Portal in frontend by performing CRUD operations. Used phpMyAdmin as a database to perform DB operations. Engineered modern web application with MySQL, Bootstrap4. Managed & handled multiple servers like Production, Staging & Development servers.</p>
+                            </div>
+                            <div class="position-relative ex-me mb-4">
+                                <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px;left: -35px; font-size: 22px;"></i>
+                                <h5 class="font-weight-bold mb-1">Machine Learning Engineer Intern</h5>
+                                <p class="mb-2"><strong>M.N.I.T Jaipur</strong> | <small> May 2019 - July 2019</small></p>
+                                <p>Developed an end-to-end Machine Learning Application which is used for predicting overall rating of movies based on various web sources such as Twitter, Google News etc. The rating displayed to the user is further compared with IMDB ratings to evaluate the performance of the model. Skills & Technology used: Data Pre-Processing & Feature Extraction using Numpy & Pandas; Data Visualization using matplotlib; Machine Learning by Decision Tree Algorithm using sklearn.</p>
+                            </div>
                         </div>
-                        <div class="position-relative ex-me mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px;left: -35px;  font-size: 22px;"></i>
-                            <h5 class="font-weight-bold mb-1">Software Engineer Intern</h5>
-                            <p class="mb-2"><strong>Metacube Software Pvt. Ltd.</strong> | <small>  May 2019 - Jun 2019
-</small></p>
-                            <p>Developed an end-to-end web application named Offer’s Corner by using JS, HTML & CSS which displays offers 
-catalogue to front end users, backend made by PHP consists of an Admin Portal which manages the User Portal in frontend by performing CRUD operations. Used phpMyAdmin as a database to perform DB operations. Engineered modern web application with MySQL, Bootstrap4. Managed & handled multiple servers like Production, Staging & Development servers.
-
-</p>
-                        </div>
-                        <div class="position-relative ex-me mb-4">
-                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px;left: -35px;  font-size: 22px;"></i>
-                            <h5 class="font-weight-bold mb-1">Machine Learning Engineer Intern</h5>
-                            <p class="mb-2"><strong>M.N.I.T Jaipur</strong> | <small> May 2019 - July 2019</small></p>
-                            <p>Developed an end-to-end Machine Learning Application which is used for predicting overall rating of movies
-based on various web sources such as Twitter, Google News etc. The rating displayed to the user is furthered 
-compared with IMDB ratings to evaluate the performance of the model. Skills & Technology used: Data Pre-Processing & Feature Extraction using Numpy & Pandas; Data Visualization using matplotlib; Machine Learning by Decision Tree Algorithm using sklearn.
-
-</p>
-                            
-                        </div>
-                    </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-            
-          </section>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
           
           <!-- Qualification Start -->
 <!--
@@ -357,6 +361,20 @@ compared with IMDB ratings to evaluate the performance of the model. Skills & Te
          <section class="work section" id="work">
             <h2 class="section-title">Projects</h2>
             <div class="work__container bd-grid">
+                <!-- PROJECT 0 -->
+               <div class="work__img">
+                  <img src="assets/img/Projects/FlickSeeAdmin/flickseelogo1.png" alt="">
+                  <div class="card-body">
+                     <h4 class="card-title" style="text-align:center">Flick See Admin</h4>
+                     <p class="card-text" style="text-align:center">FlickSee provide us a simple 
+interface for your fashion and lifestyle needs.Flick-Admin is the admin portal for managing the main website. </p>
+                     <p class="text-center"><a class="btn btn-outline-primary" href="assets/img/Projects/FlickSeeAdmin/FlickSee-Admin.pdf" target="_blank">Read More</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-outline-primary" href="https://github.com/harshal-jain/FlickSee-Admin-Portal.git" target="_blank">Github</a></p>
+                     <div class="card-footer text-center text-muted">
+                        𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐲 ➟ Angular 12
+                     </div>
+                  </div>
+               </div>
+                
                <!-- PROJECT 1 -->
                <div class="work__img">
                   <img src="assets/img/Projects/OfferCorner/bannernew.jpg" alt="">
