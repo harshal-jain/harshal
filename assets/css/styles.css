@@ -36,6 +36,7 @@ table {
         }
           
         .scroll {
+                    border-radius: 2%;
             display: block;
             border: 0px solid red;
             padding: 5px;
