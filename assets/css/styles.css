@@ -215,6 +215,7 @@ img{
 }
 @media screen and (max-width: 768px){
   .nav__menu{
+    border-radius: 0.5%;
     position: fixed;
     top: var(--header-height);
     right: -100%;
