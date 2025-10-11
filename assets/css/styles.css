@@ -458,6 +458,16 @@ img{
   color: #fff;
   margin: 0 var(--mb-2)
 }
+/* Default (mobile-first) layout */
+.skills__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* two columns for mobile */
+  gap: 1rem;
+  justify-content: center;
+  align-items: start;
+  text-align: center;
+}
+
 
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px){
