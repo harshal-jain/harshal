@@ -213,6 +213,44 @@ img{
   align-items: center;
   font-weight: var(--font-semi);
 }
+
+/* BLOG SECTION LAYOUT */
+
+/* Mobile-first: stack vertically */
+.blog .skills__container {
+  display: grid;
+  grid-template-columns: 1fr; /* single column on mobile */
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: start;
+}
+
+/* Tablet and up: show side-by-side */
+@media screen and (min-width: 768px) {
+  .blog .skills__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Optional: make cards look clean */
+.blog .skills__data {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.blog .skills__data:hover {
+  transform: translateY(-5px);
+}
+
+.blog .scroll {
+  max-height: 350px;
+  overflow-y: auto;
+  text-align: left;
+}
+
 @media screen and (max-width: 768px){
   .nav__menu{
     border-radius: 0.2%;
