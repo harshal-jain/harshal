@@ -623,6 +623,88 @@ interface for your fashion and lifestyle needs.Flick-Admin is the admin portal f
                </a>
             </div>
          </section>
+
+<!--===== LICENSE CERTIFICATIONS =====-->
+<section class="certification section" id="certification">
+
+    <h2 class="section-title">License Certification & Badge</h2>
+
+    <div class="certification__container">
+
+        <!-- Certificate -->
+        <a href="assets/img/AWS_Certificate.jpg"
+           target="_blank"
+           class="certification__item">
+
+            <img src="assets/img/AWS_Certificate.jpg"
+                 alt="AWS Certificate">
+        </a>
+
+        <!-- Badge -->
+        <a href="assets/img/AWS_Badge.jpg"
+           target="_blank"
+           class="certification__item">
+
+            <img src="assets/img/AWS_Badge.jpg"
+                 alt="AWS Certification Badge">
+        </a>
+
+    </div>
+
+</section>
+
+<style>
+/* Certificate and Badge Container */
+#certification .certification__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Individual Image Container */
+#certification .certification__item {
+    flex: 0 1 auto;
+    min-width: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Certificate and Badge Images */
+#certification .certification__item img {
+    height: 380px !important;
+    width: auto !important;
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+    #certification .certification__container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 15px;
+    }
+
+    #certification .certification__item {
+        width: 100%;
+    }
+
+    #certification .certification__item img {
+        height: 280px !important;
+        max-width: 100%;
+    }
+}
+</style>
+
+<!---------------LICENSE CERTIFICATION END ------------------>
+
          <!-- scroller -->
          <section class="blog section" id="blog">
             <h2 class="section-title">Blogs</h2>
